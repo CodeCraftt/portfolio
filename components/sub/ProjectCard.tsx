@@ -10,7 +10,7 @@ interface Props {
 
 const ProjectCard = ({ src, title, description, githubUrl }: Props) => {
   return (
-    <div className="w-[100vw] lg:w-[32%] p-4 bg-[#1a1a2e] rounded-lg shadow-lg flex flex-col justify-between">
+    <div className="w-[100vw] lg:w-[32%] p-4 bg-[#1a1a2e] rounded-lg shadow-lg flex flex-col justify-between hover:scale-105 duration-200">
       <Image
         src={src}
         alt={title}
